@@ -1,0 +1,116 @@
+<ion-view view-title="Mi Perfil">
+   <ion-content>
+
+      <!-- Campos de texto -->
+      <div class="item item-icon-left"><i class="icon ion-person"></i> Nombre</div>
+      <div class="item item-icon-left"><i class="icon ion-email"></i> Correo</div>
+      <div class="item item-icon-left"><i class="icon ion-ios-telephone"></i> Telefono</div>
+      <div class="item item-icon-left"><i class="icon ion-iphone"></i> Celular</div>
+      <div class="item item-icon-left"><i class="icon ion-briefcase"></i> Empleo</div>
+      <div class="item item-icon-left">
+         <i class="icon ion-link"></i>
+         <input type="text" value="http://www.google.com">
+      </div>
+      <ion-toggle ng-model="airplaneMode" toggle-class="toggle-calm">Es Independiente</ion-toggle>
+      
+
+      <!-- colapsables -->
+      <div class="colapsables">
+         <div class="panel-group" id="accordion_3" role="tablist" aria-multiselectable="true">
+                            <div class="panel panel-default">
+                                <div class="panel-heading col-xs-12" role="tab" id="headingTwo_3">
+                                    <h4 class="panel-title">
+                                        <a class="" role="button" data-toggle="collapse" data-parent="#accordion_3" href="#collapseTwo_3" aria-expanded="true" aria-controls="collapseTwo_3">
+                                            Datos Privados<span class="caret"></span>
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseTwo_3" class="collapse" role="tabpanel" aria-labelledby="headingTwo_3" aria-expanded="true">
+                                    <div class="panel-body">
+                                        <br />
+                                        <div class="pull-left">
+                                            <h6>Compartir con:</h6>
+                                        </div>
+                                        <h6>
+                                            <div class="col-xs-6 pull-right">
+                                                <div class="input-group">
+                                                    <select name="tagging" id="PrivacidadId">
+                                                        <option disabled="disabled">- Privacidad -</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </h6>
+                                        <br />
+                                        <br />
+                                        <h6>Mostrar datos del cliente</h6>
+                                        <br />
+                                        <div class="row clearfix">
+                                            <div class="col-xs-12">
+                                                <div>
+                                                    <div class="switch blue">
+                                                        <label>
+                                                            <input type="checkbox" checked="" id="NotificacionDNombre"><span class="lever"></span>Nombre
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <div class="row clearfix">
+                                            <div class="col-xs-12">
+                                                <div>
+                                                    <div class="switch blue">
+                                                        <label>
+                                                            <input type="checkbox" checked="" id="NotificacionDTelefono"><span class="lever"></span>Teléfono
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br />
+                                        <div class="row clearfix">
+                                            <div class="col-xs-12">
+                                                <div>
+                                                    <div class="switch blue">
+                                                        <label>
+                                                            <input type="checkbox" checked="" id="NotificacionDDireccion"><span class="lever"></span>Dirección
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br />
+                                        <br />
+                                        <h6>Mostrar datos de la propiedad</h6>
+                                        <br />
+                                        <div class="row clearfix">
+                                            <div class="col-xs-12">
+                                                <div>
+                                                    <div class="switch blue">
+                                                        <label>
+                                                            <input type="checkbox" checked="" id="NotificacionTelefono"><span class="lever"></span>Teléfono
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <div class="row clearfix">
+                                            <div class="col-xs-12">
+                                                <div>
+                                                    <div class="switch blue">
+                                                        <label>
+                                                            <input type="checkbox" checked="" id="NotificacionNombre"><span class="lever"></span>Dirección
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+      </div>
+
+   </ion-content>
+</ion-view>
